@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "id": "2CmXUg8IjK2gDDyB-zITEI91j-Dk2zLI",
+        "plugin": "journals",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.1.10",
+        "title": "Journals",
+        "description": "Journals Localization & Tweaks",
+        "hash": "4b5d83244b5d83244b5d83244b5d8324",
+        "created_at": "2026-03-23T20:33:37.302Z",
+        "updated_at": "2026-03-23T20:33:37.302Z"
+    },
+    {
+        "id": "tOLTdirsrteDFe0GerQLJalZEZVVZd41",
+        "plugin": "journals",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.1.10",
+        "title": "Journals",
+        "description": "Journals Localization & Tweaks",
+        "hash": "5ca9996c5ca9996c5ca9996c5ca9996c",
+        "created_at": "2026-03-23T20:33:37.302Z",
+        "updated_at": "2026-03-23T20:33:37.302Z"
+    }
+]
