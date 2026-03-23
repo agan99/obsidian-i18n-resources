@@ -1,0 +1,1216 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "journals",
+        "version": "1.0.0",
+        "title": "Journals",
+        "description": "Journals Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "All journals",
+                    "target": "All journals"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "Copied to clipboard"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not connected to any journal.",
+                    "target": "This note is not connected to any journal."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unknown journal.",
+                    "target": "Unknown journal."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no next note after this one.",
+                    "target": "There is no next note after this one."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no previous note before this one.",
+                    "target": "There is no previous note before this one."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)",
+                    "target": "Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)",
+                    "target": "Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)",
+                    "target": "Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "What to do with notes connected to this journal",
+                    "target": "What to do with notes connected to this journal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which day to consider as first day of week.",
+                    "target": "Which day to consider as first day of week."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define what date in January a week should contain to be considered first week of a year.",
+                    "target": "Define what date in January a week should contain to be considered first week of a year."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open a note whenever you open this vault?",
+                    "target": "Open a note whenever you open this vault?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Note title",
+                    "target": "Note title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ISO 8601",
+                    "target": "ISO 8601"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Western traditional",
+                    "target": "Western traditional"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Middle Eastern",
+                    "target": "Middle Eastern"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Journal notes",
+                    "target": "Journal notes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Journal name",
+                    "target": "Journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "I'll be writing",
+                    "target": "I'll be writing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start date",
+                    "target": "Start date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shelf name",
+                    "target": "Shelf name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move journals to",
+                    "target": "Move journals to"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom settings",
+                    "target": "Custom settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start week on",
+                    "target": "Start week on"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First week of year",
+                    "target": "First week of year"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Week configuration",
+                    "target": "Week configuration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply week configuration for all dates in vault?",
+                    "target": "Apply week configuration for all dates in vault?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use shelves?",
+                    "target": "Use shelves?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable shelves?",
+                    "target": "Enable shelves?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open today's note",
+                    "target": "Open today's note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open weekly note",
+                    "target": "Open weekly note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open monthly note",
+                    "target": "Open monthly note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open quarterly note",
+                    "target": "Open quarterly note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open yearly note",
+                    "target": "Open yearly note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open tomorrow's note",
+                    "target": "Open tomorrow's note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next week note",
+                    "target": "Open next week note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next month note",
+                    "target": "Open next month note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next quarter note",
+                    "target": "Open next quarter note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next year note",
+                    "target": "Open next year note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open yesterday's note",
+                    "target": "Open yesterday's note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last week note",
+                    "target": "Open last week note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last month note",
+                    "target": "Open last month note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last quarter note",
+                    "target": "Open last quarter note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last year note",
+                    "target": "Open last year note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daily journal name",
+                    "target": "Daily journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weekly journal name",
+                    "target": "Weekly journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Monthly journal name",
+                    "target": "Monthly journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quarterly journal name",
+                    "target": "Quarterly journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yearly journal name",
+                    "target": "Yearly journal name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Done!",
+                    "target": "Done!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter data",
+                    "target": "Frontmatter data"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep start and end dates in frontmatter?",
+                    "target": "Keep start and end dates in frontmatter?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in ribbon?",
+                    "target": "Show in ribbon?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note type",
+                    "target": "Note type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open note",
+                    "target": "Open note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Some data is pending migration",
+                    "target": "Some data is pending migration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colliding journal settings",
+                    "target": "Colliding journal settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open on startup",
+                    "target": "Open on startup"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show calendar in",
+                    "target": "Show calendar in"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show weeks",
+                    "target": "Show weeks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Today button",
+                    "target": "Today button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pick date button",
+                    "target": "Pick date button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlighting today",
+                    "target": "Highlighting today"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text color",
+                    "target": "Text color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Background color",
+                    "target": "Background color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlighting active note",
+                    "target": "Highlighting active note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date+1w<startOf=week>:MMM DD, YYYY",
+                    "target": "date+1w<startOf=week>:MMM DD, YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When command runs",
+                    "target": "When command runs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Border appearance",
+                    "target": "Border appearance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New name",
+                    "target": "New name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font size",
+                    "target": "Font size"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add decorations",
+                    "target": "Add decorations"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current name",
+                    "target": "Current name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start writing on",
+                    "target": "Start writing on"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End writing",
+                    "target": "End writing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index notes",
+                    "target": "Index notes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anchor date",
+                    "target": "Anchor date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start number",
+                    "target": "Start number"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index change",
+                    "target": "Index change"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Allow before",
+                    "target": "Allow before"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Confirm creating new note?",
+                    "target": "Confirm creating new note?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-create current notes",
+                    "target": "Auto-create current notes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default date format",
+                    "target": "Default date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigation block mode",
+                    "target": "Navigation block mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decorate whole navigation block",
+                    "target": "Decorate whole navigation block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date property name",
+                    "target": "Date property name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index property name",
+                    "target": "Index property name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add start date property?",
+                    "target": "Add start date property?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start date property name",
+                    "target": "Start date property name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add end date property?",
+                    "target": "Add end date property?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End date property name",
+                    "target": "End date property name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Take date from",
+                    "target": "Take date from"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Property containing date",
+                    "target": "Property containing date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date format",
+                    "target": "Date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "If other note with same date exists in journal",
+                    "target": "If other note with same date exists in journal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When note name differs from journal settings",
+                    "target": "When note name differs from journal settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When note is not in folder from journal setting",
+                    "target": "When note is not in folder from journal setting"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dry run?",
+                    "target": "Dry run?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note is already connected",
+                    "target": "Note is already connected"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Override?",
+                    "target": "Override?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename?",
+                    "target": "Rename?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move?",
+                    "target": "Move?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next note",
+                    "target": "Open next note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous note",
+                    "target": "Open previous note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connect note to a journal",
+                    "target": "Connect note to a journal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open calendar",
+                    "target": "Open calendar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change calendar view shelf",
+                    "target": "Change calendar view shelf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ex. Work",
+                    "target": "ex. Work"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Any year",
+                    "target": "Any year"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Check title",
+                    "target": "Check title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fake Note",
+                    "target": "Fake Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous decade",
+                    "target": "Previous decade"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next decade",
+                    "target": "Next decade"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous year",
+                    "target": "Previous year"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next year",
+                    "target": "Next year"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous quarter",
+                    "target": "Previous quarter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next quarter",
+                    "target": "Next quarter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous month",
+                    "target": "Previous month"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next month",
+                    "target": "Next month"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Create new journal",
+                    "target": "Create new journal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Create new shelf",
+                    "target": "Create new shelf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Move up",
+                    "target": "Move up"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Move down",
+                    "target": "Move down"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Rename journal",
+                    "target": "Rename journal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Back to list",
+                    "target": "Back to list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Change shelf",
+                    "target": "Change shelf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Clear start date",
+                    "target": "Clear start date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Rename shelf",
+                    "target": "Rename shelf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Select a date to be displayed",
+                    "target": "Select a date to be displayed"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Copied to clipboard\")",
+                    "target": "Notice(\"Copied to clipboard\")"
+                },
+                {
+                    "source": "setTitle(\"All journals\")",
+                    "target": "setTitle(\"All journals\")"
+                },
+                {
+                    "source": "Notice(\"This note is not connected to any journal.\")",
+                    "target": "Notice(\"This note is not connected to any journal.\")"
+                },
+                {
+                    "source": "Notice(\"Unknown journal.\")",
+                    "target": "Notice(\"Unknown journal.\")"
+                },
+                {
+                    "source": "Notice(\"There is no next note after this one.\")",
+                    "target": "Notice(\"There is no next note after this one.\")"
+                },
+                {
+                    "source": "Notice(\"There is no previous note before this one.\")",
+                    "target": "Notice(\"There is no previous note before this one.\")"
+                },
+                {
+                    "source": "name:\"ISO 8601\"",
+                    "target": "name:\"ISO 8601\""
+                },
+                {
+                    "source": "description:`Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)`",
+                    "target": "description:`Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)`"
+                },
+                {
+                    "source": "name:\"Western traditional\"",
+                    "target": "name:\"Western traditional\""
+                },
+                {
+                    "source": "description:`Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)`",
+                    "target": "description:`Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)`"
+                },
+                {
+                    "source": "name:\"Middle Eastern\"",
+                    "target": "name:\"Middle Eastern\""
+                },
+                {
+                    "source": "description:`Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)`",
+                    "target": "description:`Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)`"
+                },
+                {
+                    "source": "description:`Week starts on ${a}.\nFirst week of year includes Jan ${r}`",
+                    "target": "description:`Week starts on ${a}.\nFirst week of year includes Jan ${r}`"
+                },
+                {
+                    "source": "name:\"Journal notes\"",
+                    "target": "name:\"Journal notes\""
+                },
+                {
+                    "source": "description:\"What to do with notes connected to this journal\"",
+                    "target": "description:\"What to do with notes connected to this journal\""
+                },
+                {
+                    "source": "name:\"Journal name\"",
+                    "target": "name:\"Journal name\""
+                },
+                {
+                    "source": "name:\"I'll be writing\"",
+                    "target": "name:\"I'll be writing\""
+                },
+                {
+                    "source": "name:\"Start date\"",
+                    "target": "name:\"Start date\""
+                },
+                {
+                    "source": "name:\"Shelf name\"",
+                    "target": "name:\"Shelf name\""
+                },
+                {
+                    "source": "name:\"Move journals to\"",
+                    "target": "name:\"Move journals to\""
+                },
+                {
+                    "source": "name:\"Custom settings\"",
+                    "target": "name:\"Custom settings\""
+                },
+                {
+                    "source": "name:\"Start week on\"",
+                    "target": "name:\"Start week on\""
+                },
+                {
+                    "source": "description:\"Which day to consider as first day of week.\"",
+                    "target": "description:\"Which day to consider as first day of week.\""
+                },
+                {
+                    "source": "name:\"First week of year\"",
+                    "target": "name:\"First week of year\""
+                },
+                {
+                    "source": "description:\"Define what date in January a week should contain to be considered first week of a year.\"",
+                    "target": "description:\"Define what date in January a week should contain to be considered first week of a year.\""
+                },
+                {
+                    "source": "name:\"Week configuration\"",
+                    "target": "name:\"Week configuration\""
+                },
+                {
+                    "source": "name:\"Apply week configuration for all dates in vault?\"",
+                    "target": "name:\"Apply week configuration for all dates in vault?\""
+                },
+                {
+                    "source": "name:\"Use shelves?\"",
+                    "target": "name:\"Use shelves?\""
+                },
+                {
+                    "source": "name:\"Enable shelves?\"",
+                    "target": "name:\"Enable shelves?\""
+                },
+                {
+                    "source": "name:\"Open today's note\"",
+                    "target": "name:\"Open today's note\""
+                },
+                {
+                    "source": "name:\"Open weekly note\"",
+                    "target": "name:\"Open weekly note\""
+                },
+                {
+                    "source": "name:\"Open monthly note\"",
+                    "target": "name:\"Open monthly note\""
+                },
+                {
+                    "source": "name:\"Open quarterly note\"",
+                    "target": "name:\"Open quarterly note\""
+                },
+                {
+                    "source": "name:\"Open yearly note\"",
+                    "target": "name:\"Open yearly note\""
+                },
+                {
+                    "source": "name:\"Open tomorrow's note\"",
+                    "target": "name:\"Open tomorrow's note\""
+                },
+                {
+                    "source": "name:\"Open next week note\"",
+                    "target": "name:\"Open next week note\""
+                },
+                {
+                    "source": "name:\"Open next month note\"",
+                    "target": "name:\"Open next month note\""
+                },
+                {
+                    "source": "name:\"Open next quarter note\"",
+                    "target": "name:\"Open next quarter note\""
+                },
+                {
+                    "source": "name:\"Open next year note\"",
+                    "target": "name:\"Open next year note\""
+                },
+                {
+                    "source": "name:\"Open yesterday's note\"",
+                    "target": "name:\"Open yesterday's note\""
+                },
+                {
+                    "source": "name:\"Open last week note\"",
+                    "target": "name:\"Open last week note\""
+                },
+                {
+                    "source": "name:\"Open last month note\"",
+                    "target": "name:\"Open last month note\""
+                },
+                {
+                    "source": "name:\"Open last quarter note\"",
+                    "target": "name:\"Open last quarter note\""
+                },
+                {
+                    "source": "name:\"Open last year note\"",
+                    "target": "name:\"Open last year note\""
+                },
+                {
+                    "source": "name:\"Daily journal name\"",
+                    "target": "name:\"Daily journal name\""
+                },
+                {
+                    "source": "name:\"Weekly journal name\"",
+                    "target": "name:\"Weekly journal name\""
+                },
+                {
+                    "source": "name:\"Monthly journal name\"",
+                    "target": "name:\"Monthly journal name\""
+                },
+                {
+                    "source": "name:\"Quarterly journal name\"",
+                    "target": "name:\"Quarterly journal name\""
+                },
+                {
+                    "source": "name:\"Yearly journal name\"",
+                    "target": "name:\"Yearly journal name\""
+                },
+                {
+                    "source": "name:\"Frontmatter data\"",
+                    "target": "name:\"Frontmatter data\""
+                },
+                {
+                    "source": "name:\"Keep start and end dates in frontmatter?\"",
+                    "target": "name:\"Keep start and end dates in frontmatter?\""
+                },
+                {
+                    "source": "name:\"Show in ribbon?\"",
+                    "target": "name:\"Show in ribbon?\""
+                },
+                {
+                    "source": "name:\"Note type\"",
+                    "target": "name:\"Note type\""
+                },
+                {
+                    "source": "name:\"Open note\"",
+                    "target": "name:\"Open note\""
+                },
+                {
+                    "source": "name:\"Some data is pending migration\"",
+                    "target": "name:\"Some data is pending migration\""
+                },
+                {
+                    "source": "name:\"Colliding journal settings\"",
+                    "target": "name:\"Colliding journal settings\""
+                },
+                {
+                    "source": "name:\"Open on startup\"",
+                    "target": "name:\"Open on startup\""
+                },
+                {
+                    "source": "description:\"Open a note whenever you open this vault?\"",
+                    "target": "description:\"Open a note whenever you open this vault?\""
+                },
+                {
+                    "source": "name:\"Show calendar in\"",
+                    "target": "name:\"Show calendar in\""
+                },
+                {
+                    "source": "name:\"Show weeks\"",
+                    "target": "name:\"Show weeks\""
+                },
+                {
+                    "source": "name:\"Today button\"",
+                    "target": "name:\"Today button\""
+                },
+                {
+                    "source": "name:\"Pick date button\"",
+                    "target": "name:\"Pick date button\""
+                },
+                {
+                    "source": "name:\"Highlighting today\"",
+                    "target": "name:\"Highlighting today\""
+                },
+                {
+                    "source": "name:\"Text color\"",
+                    "target": "name:\"Text color\""
+                },
+                {
+                    "source": "name:\"Background color\"",
+                    "target": "name:\"Background color\""
+                },
+                {
+                    "source": "name:\"Highlighting active note\"",
+                    "target": "name:\"Highlighting active note\""
+                },
+                {
+                    "source": "name:\"date+1w<startOf=week>:MMM DD, YYYY\"",
+                    "target": "name:\"date+1w<startOf=week>:MMM DD, YYYY\""
+                },
+                {
+                    "source": "name:\"When command runs\"",
+                    "target": "name:\"When command runs\""
+                },
+                {
+                    "source": "name:\"Border appearance\"",
+                    "target": "name:\"Border appearance\""
+                },
+                {
+                    "source": "name:\"New name\"",
+                    "target": "name:\"New name\""
+                },
+                {
+                    "source": "name:\"Font size\"",
+                    "target": "name:\"Font size\""
+                },
+                {
+                    "source": "name:\"Add decorations\"",
+                    "target": "name:\"Add decorations\""
+                },
+                {
+                    "source": "name:\"Current name\"",
+                    "target": "name:\"Current name\""
+                },
+                {
+                    "source": "name:\"Start writing on\"",
+                    "target": "name:\"Start writing on\""
+                },
+                {
+                    "source": "name:\"End writing\"",
+                    "target": "name:\"End writing\""
+                },
+                {
+                    "source": "name:\"Index notes\"",
+                    "target": "name:\"Index notes\""
+                },
+                {
+                    "source": "name:\"Anchor date\"",
+                    "target": "name:\"Anchor date\""
+                },
+                {
+                    "source": "name:\"Start number\"",
+                    "target": "name:\"Start number\""
+                },
+                {
+                    "source": "name:\"Index change\"",
+                    "target": "name:\"Index change\""
+                },
+                {
+                    "source": "name:\"Allow before\"",
+                    "target": "name:\"Allow before\""
+                },
+                {
+                    "source": "name:\"Confirm creating new note?\"",
+                    "target": "name:\"Confirm creating new note?\""
+                },
+                {
+                    "source": "name:\"Auto-create current notes\"",
+                    "target": "name:\"Auto-create current notes\""
+                },
+                {
+                    "source": "name:\"Default date format\"",
+                    "target": "name:\"Default date format\""
+                },
+                {
+                    "source": "name:\"Navigation block mode\"",
+                    "target": "name:\"Navigation block mode\""
+                },
+                {
+                    "source": "name:\"Decorate whole navigation block\"",
+                    "target": "name:\"Decorate whole navigation block\""
+                },
+                {
+                    "source": "name:\"Date property name\"",
+                    "target": "name:\"Date property name\""
+                },
+                {
+                    "source": "name:\"Index property name\"",
+                    "target": "name:\"Index property name\""
+                },
+                {
+                    "source": "name:\"Add start date property?\"",
+                    "target": "name:\"Add start date property?\""
+                },
+                {
+                    "source": "name:\"Start date property name\"",
+                    "target": "name:\"Start date property name\""
+                },
+                {
+                    "source": "name:\"Add end date property?\"",
+                    "target": "name:\"Add end date property?\""
+                },
+                {
+                    "source": "name:\"End date property name\"",
+                    "target": "name:\"End date property name\""
+                },
+                {
+                    "source": "name:\"Take date from\"",
+                    "target": "name:\"Take date from\""
+                },
+                {
+                    "source": "name:\"Property containing date\"",
+                    "target": "name:\"Property containing date\""
+                },
+                {
+                    "source": "name:\"Date format\"",
+                    "target": "name:\"Date format\""
+                },
+                {
+                    "source": "name:\"If other note with same date exists in journal\"",
+                    "target": "name:\"If other note with same date exists in journal\""
+                },
+                {
+                    "source": "name:\"When note name differs from journal settings\"",
+                    "target": "name:\"When note name differs from journal settings\""
+                },
+                {
+                    "source": "name:\"When note is not in folder from journal setting\"",
+                    "target": "name:\"When note is not in folder from journal setting\""
+                },
+                {
+                    "source": "name:\"Dry run?\"",
+                    "target": "name:\"Dry run?\""
+                },
+                {
+                    "source": "name:\"Note is already connected\"",
+                    "target": "name:\"Note is already connected\""
+                },
+                {
+                    "source": "name:\"Open next note\"",
+                    "target": "name:\"Open next note\""
+                },
+                {
+                    "source": "name:\"Open previous note\"",
+                    "target": "name:\"Open previous note\""
+                },
+                {
+                    "source": "name:\"Connect note to a journal\"",
+                    "target": "name:\"Connect note to a journal\""
+                },
+                {
+                    "source": "name:\"Open calendar\"",
+                    "target": "name:\"Open calendar\""
+                },
+                {
+                    "source": "name:\"Change calendar view shelf\"",
+                    "target": "name:\"Change calendar view shelf\""
+                }
+            ]
+        }
+    }
+}

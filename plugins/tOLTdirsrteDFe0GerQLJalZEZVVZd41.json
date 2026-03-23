@@ -1,0 +1,1216 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "journals",
+        "version": "1.0.0",
+        "title": "Journals",
+        "description": "Journals Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "All journals",
+                    "target": "所有日志"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note is not connected to any journal.",
+                    "target": "此笔记未连接到任何日志."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unknown journal.",
+                    "target": "未知日志."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no next note after this one.",
+                    "target": "此笔记后没有下一条笔记."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no previous note before this one.",
+                    "target": "此笔记前没有上一条笔记."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)",
+                    "target": "一周从星期一开始。\n第一周包含1月4日（星期四）."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)",
+                    "target": "一周从星期天开始。\n第一周包含1月1日（星期六）."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)",
+                    "target": "一周从星期六开始。\n第一周包含1月1日（星期五）."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "What to do with notes connected to this journal",
+                    "target": "如何处理与此日志相关的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which day to consider as first day of week.",
+                    "target": "将哪一天视为一周的第一天。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define what date in January a week should contain to be considered first week of a year.",
+                    "target": "定义一周在一月份应包含的日期，以便被视为一年的第一周。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open a note whenever you open this vault?",
+                    "target": "每次打开此保险库时是否打开笔记？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Note title",
+                    "target": "笔记标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ISO 8601",
+                    "target": "ISO 8601"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Western traditional",
+                    "target": "西方传统"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Middle Eastern",
+                    "target": "中东"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Journal notes",
+                    "target": "日志笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Journal name",
+                    "target": "日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "I'll be writing",
+                    "target": "我将要写的"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shelf name",
+                    "target": "书架名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move journals to",
+                    "target": "移动期刊到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom settings",
+                    "target": "自定义设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start week on",
+                    "target": "周起始日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "First week of year",
+                    "target": "年份的第一周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Week configuration",
+                    "target": "周配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply week configuration for all dates in vault?",
+                    "target": "将周配置应用于库中所有日期？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use shelves?",
+                    "target": "使用书架？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable shelves?",
+                    "target": "启用书架？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open today's note",
+                    "target": "打开今天的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open weekly note",
+                    "target": "打开本周的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open monthly note",
+                    "target": "打开本月的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open quarterly note",
+                    "target": "打开本季度的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open yearly note",
+                    "target": "打开本年度的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open tomorrow's note",
+                    "target": "打开明天的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next week note",
+                    "target": "打开下周的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next month note",
+                    "target": "打开下月的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next quarter note",
+                    "target": "打开下季度的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next year note",
+                    "target": "打开明年的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open yesterday's note",
+                    "target": "打开昨天的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last week note",
+                    "target": "打开上周的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last month note",
+                    "target": "打开上个月的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last quarter note",
+                    "target": "打开上季度的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open last year note",
+                    "target": "打开去年的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daily journal name",
+                    "target": "每日日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weekly journal name",
+                    "target": "每周日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Monthly journal name",
+                    "target": "每月日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quarterly journal name",
+                    "target": "每季度日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yearly journal name",
+                    "target": "每年日志名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Done!",
+                    "target": "完成!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter data",
+                    "target": "前言数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep start and end dates in frontmatter?",
+                    "target": "保持前言中的开始和结束日期？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in ribbon?",
+                    "target": "在功能区显示？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note type",
+                    "target": "笔记类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open note",
+                    "target": "打开笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Some data is pending migration",
+                    "target": "某些数据正在待迁移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colliding journal settings",
+                    "target": "冲突的日记设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open on startup",
+                    "target": "启动时打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show calendar in",
+                    "target": "在中显示日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show weeks",
+                    "target": "显示周数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Today button",
+                    "target": "今天按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pick date button",
+                    "target": "选择日期按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlighting today",
+                    "target": "高亮今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text color",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Background color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlighting active note",
+                    "target": "高亮活动笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date+1w<startOf=week>:MMM DD, YYYY",
+                    "target": "date+1w<startOf=week>:MMM DD, YYYY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When command runs",
+                    "target": "当命令运行时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Border appearance",
+                    "target": "边框外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New name",
+                    "target": "新名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font size",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add decorations",
+                    "target": "添加装饰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current name",
+                    "target": "当前名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start writing on",
+                    "target": "开始书写于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End writing",
+                    "target": "结束书写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index notes",
+                    "target": "索引注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anchor date",
+                    "target": "锚点日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start number",
+                    "target": "起始编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index change",
+                    "target": "索引更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Allow before",
+                    "target": "允许之前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Confirm creating new note?",
+                    "target": "确认创建新笔记？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-create current notes",
+                    "target": "自动创建当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default date format",
+                    "target": "默认日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigation block mode",
+                    "target": "导航块模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decorate whole navigation block",
+                    "target": "装饰整个导航块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date property name",
+                    "target": "日期属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index property name",
+                    "target": "索引属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add start date property?",
+                    "target": "添加开始日期属性？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start date property name",
+                    "target": "开始日期属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add end date property?",
+                    "target": "添加结束日期属性？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End date property name",
+                    "target": "结束日期属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Take date from",
+                    "target": "取日期自"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Property containing date",
+                    "target": "包含日期的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "If other note with same date exists in journal",
+                    "target": "如果日记中已存在相同日期的其他笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When note name differs from journal settings",
+                    "target": "当笔记名称与日记设置不同"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When note is not in folder from journal setting",
+                    "target": "当笔记不在日记设置的文件夹中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dry run?",
+                    "target": "模拟运行？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note is already connected",
+                    "target": "笔记已连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Override?",
+                    "target": "覆盖？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename?",
+                    "target": "重命名？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move?",
+                    "target": "移动？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next note",
+                    "target": "打开下一个笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous note",
+                    "target": "打开上一个笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connect note to a journal",
+                    "target": "将笔记连接到日记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open calendar",
+                    "target": "打开日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change calendar view shelf",
+                    "target": "更改日历视图架"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ex. Work",
+                    "target": "例如：工作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Any year",
+                    "target": "任何年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Check title",
+                    "target": "检查标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fake Note",
+                    "target": "虚假注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous decade",
+                    "target": "上一十年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next decade",
+                    "target": "下一十年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous year",
+                    "target": "上一年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next year",
+                    "target": "下一年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous quarter",
+                    "target": "上一季度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next quarter",
+                    "target": "下一季度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous month",
+                    "target": "上个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next month",
+                    "target": "下个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Create new journal",
+                    "target": "创建新日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Create new shelf",
+                    "target": "创建新书架"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Move up",
+                    "target": "向上移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Move down",
+                    "target": "向下移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Rename journal",
+                    "target": "重命名日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Back to list",
+                    "target": "返回列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Change shelf",
+                    "target": "更改书架"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Clear start date",
+                    "target": "清除开始日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Rename shelf",
+                    "target": "重命名书架"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Select a date to be displayed",
+                    "target": "选择要显示的日期"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Copied to clipboard\")",
+                    "target": "Notice(\"Copied to clipboard\")"
+                },
+                {
+                    "source": "setTitle(\"All journals\")",
+                    "target": "setTitle(\"All journals\")"
+                },
+                {
+                    "source": "Notice(\"This note is not connected to any journal.\")",
+                    "target": "Notice(\"This note is not connected to any journal.\")"
+                },
+                {
+                    "source": "Notice(\"Unknown journal.\")",
+                    "target": "Notice(\"Unknown journal.\")"
+                },
+                {
+                    "source": "Notice(\"There is no next note after this one.\")",
+                    "target": "Notice(\"There is no next note after this one.\")"
+                },
+                {
+                    "source": "Notice(\"There is no previous note before this one.\")",
+                    "target": "Notice(\"There is no previous note before this one.\")"
+                },
+                {
+                    "source": "name:\"ISO 8601\"",
+                    "target": "name:\"ISO 8601\""
+                },
+                {
+                    "source": "description:`Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)`",
+                    "target": "description:`Week starts on Monday.\nFirst week of year includes 1st Thursday (Jan 4th)`"
+                },
+                {
+                    "source": "name:\"Western traditional\"",
+                    "target": "name:\"Western traditional\""
+                },
+                {
+                    "source": "description:`Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)`",
+                    "target": "description:`Week starts on Sunday.\nFirst week of year includes 1st Saturday (Jan 1st)`"
+                },
+                {
+                    "source": "name:\"Middle Eastern\"",
+                    "target": "name:\"Middle Eastern\""
+                },
+                {
+                    "source": "description:`Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)`",
+                    "target": "description:`Week starts on Saturday.\nFirst week of year includes 1st Friday (Jan 1st)`"
+                },
+                {
+                    "source": "description:`Week starts on ${a}.\nFirst week of year includes Jan ${r}`",
+                    "target": "description:`Week starts on ${a}.\nFirst week of year includes Jan ${r}`"
+                },
+                {
+                    "source": "name:\"Journal notes\"",
+                    "target": "name:\"Journal notes\""
+                },
+                {
+                    "source": "description:\"What to do with notes connected to this journal\"",
+                    "target": "description:\"What to do with notes connected to this journal\""
+                },
+                {
+                    "source": "name:\"Journal name\"",
+                    "target": "name:\"Journal name\""
+                },
+                {
+                    "source": "name:\"I'll be writing\"",
+                    "target": "name:\"I'll be writing\""
+                },
+                {
+                    "source": "name:\"Start date\"",
+                    "target": "name:\"Start date\""
+                },
+                {
+                    "source": "name:\"Shelf name\"",
+                    "target": "name:\"Shelf name\""
+                },
+                {
+                    "source": "name:\"Move journals to\"",
+                    "target": "name:\"Move journals to\""
+                },
+                {
+                    "source": "name:\"Custom settings\"",
+                    "target": "name:\"Custom settings\""
+                },
+                {
+                    "source": "name:\"Start week on\"",
+                    "target": "name:\"Start week on\""
+                },
+                {
+                    "source": "description:\"Which day to consider as first day of week.\"",
+                    "target": "description:\"Which day to consider as first day of week.\""
+                },
+                {
+                    "source": "name:\"First week of year\"",
+                    "target": "name:\"First week of year\""
+                },
+                {
+                    "source": "description:\"Define what date in January a week should contain to be considered first week of a year.\"",
+                    "target": "description:\"Define what date in January a week should contain to be considered first week of a year.\""
+                },
+                {
+                    "source": "name:\"Week configuration\"",
+                    "target": "name:\"Week configuration\""
+                },
+                {
+                    "source": "name:\"Apply week configuration for all dates in vault?\"",
+                    "target": "name:\"Apply week configuration for all dates in vault?\""
+                },
+                {
+                    "source": "name:\"Use shelves?\"",
+                    "target": "name:\"Use shelves?\""
+                },
+                {
+                    "source": "name:\"Enable shelves?\"",
+                    "target": "name:\"Enable shelves?\""
+                },
+                {
+                    "source": "name:\"Open today's note\"",
+                    "target": "name:\"Open today's note\""
+                },
+                {
+                    "source": "name:\"Open weekly note\"",
+                    "target": "name:\"Open weekly note\""
+                },
+                {
+                    "source": "name:\"Open monthly note\"",
+                    "target": "name:\"Open monthly note\""
+                },
+                {
+                    "source": "name:\"Open quarterly note\"",
+                    "target": "name:\"Open quarterly note\""
+                },
+                {
+                    "source": "name:\"Open yearly note\"",
+                    "target": "name:\"Open yearly note\""
+                },
+                {
+                    "source": "name:\"Open tomorrow's note\"",
+                    "target": "name:\"Open tomorrow's note\""
+                },
+                {
+                    "source": "name:\"Open next week note\"",
+                    "target": "name:\"Open next week note\""
+                },
+                {
+                    "source": "name:\"Open next month note\"",
+                    "target": "name:\"Open next month note\""
+                },
+                {
+                    "source": "name:\"Open next quarter note\"",
+                    "target": "name:\"Open next quarter note\""
+                },
+                {
+                    "source": "name:\"Open next year note\"",
+                    "target": "name:\"Open next year note\""
+                },
+                {
+                    "source": "name:\"Open yesterday's note\"",
+                    "target": "name:\"Open yesterday's note\""
+                },
+                {
+                    "source": "name:\"Open last week note\"",
+                    "target": "name:\"Open last week note\""
+                },
+                {
+                    "source": "name:\"Open last month note\"",
+                    "target": "name:\"Open last month note\""
+                },
+                {
+                    "source": "name:\"Open last quarter note\"",
+                    "target": "name:\"Open last quarter note\""
+                },
+                {
+                    "source": "name:\"Open last year note\"",
+                    "target": "name:\"Open last year note\""
+                },
+                {
+                    "source": "name:\"Daily journal name\"",
+                    "target": "name:\"Daily journal name\""
+                },
+                {
+                    "source": "name:\"Weekly journal name\"",
+                    "target": "name:\"Weekly journal name\""
+                },
+                {
+                    "source": "name:\"Monthly journal name\"",
+                    "target": "name:\"Monthly journal name\""
+                },
+                {
+                    "source": "name:\"Quarterly journal name\"",
+                    "target": "name:\"Quarterly journal name\""
+                },
+                {
+                    "source": "name:\"Yearly journal name\"",
+                    "target": "name:\"Yearly journal name\""
+                },
+                {
+                    "source": "name:\"Frontmatter data\"",
+                    "target": "name:\"Frontmatter data\""
+                },
+                {
+                    "source": "name:\"Keep start and end dates in frontmatter?\"",
+                    "target": "name:\"Keep start and end dates in frontmatter?\""
+                },
+                {
+                    "source": "name:\"Show in ribbon?\"",
+                    "target": "name:\"Show in ribbon?\""
+                },
+                {
+                    "source": "name:\"Note type\"",
+                    "target": "name:\"Note type\""
+                },
+                {
+                    "source": "name:\"Open note\"",
+                    "target": "name:\"Open note\""
+                },
+                {
+                    "source": "name:\"Some data is pending migration\"",
+                    "target": "name:\"Some data is pending migration\""
+                },
+                {
+                    "source": "name:\"Colliding journal settings\"",
+                    "target": "name:\"Colliding journal settings\""
+                },
+                {
+                    "source": "name:\"Open on startup\"",
+                    "target": "name:\"Open on startup\""
+                },
+                {
+                    "source": "description:\"Open a note whenever you open this vault?\"",
+                    "target": "description:\"Open a note whenever you open this vault?\""
+                },
+                {
+                    "source": "name:\"Show calendar in\"",
+                    "target": "name:\"Show calendar in\""
+                },
+                {
+                    "source": "name:\"Show weeks\"",
+                    "target": "name:\"Show weeks\""
+                },
+                {
+                    "source": "name:\"Today button\"",
+                    "target": "name:\"Today button\""
+                },
+                {
+                    "source": "name:\"Pick date button\"",
+                    "target": "name:\"Pick date button\""
+                },
+                {
+                    "source": "name:\"Highlighting today\"",
+                    "target": "name:\"Highlighting today\""
+                },
+                {
+                    "source": "name:\"Text color\"",
+                    "target": "name:\"Text color\""
+                },
+                {
+                    "source": "name:\"Background color\"",
+                    "target": "name:\"Background color\""
+                },
+                {
+                    "source": "name:\"Highlighting active note\"",
+                    "target": "name:\"Highlighting active note\""
+                },
+                {
+                    "source": "name:\"date+1w<startOf=week>:MMM DD, YYYY\"",
+                    "target": "name:\"date+1w<startOf=week>:MMM DD, YYYY\""
+                },
+                {
+                    "source": "name:\"When command runs\"",
+                    "target": "name:\"When command runs\""
+                },
+                {
+                    "source": "name:\"Border appearance\"",
+                    "target": "name:\"Border appearance\""
+                },
+                {
+                    "source": "name:\"New name\"",
+                    "target": "name:\"New name\""
+                },
+                {
+                    "source": "name:\"Font size\"",
+                    "target": "name:\"Font size\""
+                },
+                {
+                    "source": "name:\"Add decorations\"",
+                    "target": "name:\"Add decorations\""
+                },
+                {
+                    "source": "name:\"Current name\"",
+                    "target": "name:\"Current name\""
+                },
+                {
+                    "source": "name:\"Start writing on\"",
+                    "target": "name:\"Start writing on\""
+                },
+                {
+                    "source": "name:\"End writing\"",
+                    "target": "name:\"End writing\""
+                },
+                {
+                    "source": "name:\"Index notes\"",
+                    "target": "name:\"Index notes\""
+                },
+                {
+                    "source": "name:\"Anchor date\"",
+                    "target": "name:\"Anchor date\""
+                },
+                {
+                    "source": "name:\"Start number\"",
+                    "target": "name:\"Start number\""
+                },
+                {
+                    "source": "name:\"Index change\"",
+                    "target": "name:\"Index change\""
+                },
+                {
+                    "source": "name:\"Allow before\"",
+                    "target": "name:\"Allow before\""
+                },
+                {
+                    "source": "name:\"Confirm creating new note?\"",
+                    "target": "name:\"Confirm creating new note?\""
+                },
+                {
+                    "source": "name:\"Auto-create current notes\"",
+                    "target": "name:\"Auto-create current notes\""
+                },
+                {
+                    "source": "name:\"Default date format\"",
+                    "target": "name:\"Default date format\""
+                },
+                {
+                    "source": "name:\"Navigation block mode\"",
+                    "target": "name:\"Navigation block mode\""
+                },
+                {
+                    "source": "name:\"Decorate whole navigation block\"",
+                    "target": "name:\"Decorate whole navigation block\""
+                },
+                {
+                    "source": "name:\"Date property name\"",
+                    "target": "name:\"Date property name\""
+                },
+                {
+                    "source": "name:\"Index property name\"",
+                    "target": "name:\"Index property name\""
+                },
+                {
+                    "source": "name:\"Add start date property?\"",
+                    "target": "name:\"Add start date property?\""
+                },
+                {
+                    "source": "name:\"Start date property name\"",
+                    "target": "name:\"Start date property name\""
+                },
+                {
+                    "source": "name:\"Add end date property?\"",
+                    "target": "name:\"Add end date property?\""
+                },
+                {
+                    "source": "name:\"End date property name\"",
+                    "target": "name:\"End date property name\""
+                },
+                {
+                    "source": "name:\"Take date from\"",
+                    "target": "name:\"Take date from\""
+                },
+                {
+                    "source": "name:\"Property containing date\"",
+                    "target": "name:\"Property containing date\""
+                },
+                {
+                    "source": "name:\"Date format\"",
+                    "target": "name:\"Date format\""
+                },
+                {
+                    "source": "name:\"If other note with same date exists in journal\"",
+                    "target": "name:\"If other note with same date exists in journal\""
+                },
+                {
+                    "source": "name:\"When note name differs from journal settings\"",
+                    "target": "name:\"When note name differs from journal settings\""
+                },
+                {
+                    "source": "name:\"When note is not in folder from journal setting\"",
+                    "target": "name:\"When note is not in folder from journal setting\""
+                },
+                {
+                    "source": "name:\"Dry run?\"",
+                    "target": "name:\"Dry run?\""
+                },
+                {
+                    "source": "name:\"Note is already connected\"",
+                    "target": "name:\"Note is already connected\""
+                },
+                {
+                    "source": "name:\"Open next note\"",
+                    "target": "name:\"Open next note\""
+                },
+                {
+                    "source": "name:\"Open previous note\"",
+                    "target": "name:\"Open previous note\""
+                },
+                {
+                    "source": "name:\"Connect note to a journal\"",
+                    "target": "name:\"Connect note to a journal\""
+                },
+                {
+                    "source": "name:\"Open calendar\"",
+                    "target": "name:\"Open calendar\""
+                },
+                {
+                    "source": "name:\"Change calendar view shelf\"",
+                    "target": "name:\"Change calendar view shelf\""
+                }
+            ]
+        }
+    }
+}
